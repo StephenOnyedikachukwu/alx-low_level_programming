@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-    char letter;  /* Variable to store the current letter */
+char letter;  /* Variable to store the current letter */
 
-    /* Loop through the lowercase alphabet and print each letter */
-    for (letter = 'a'; letter <= 'z'; letter++)
-    {
-        putchar(letter);
-    }
+/* Loop through the lowercase alphabet and print each letter */
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+putchar(letter);
+}
 
-    putchar('\n');  /* Print a newline character to end the line */
+putchar('\n');  /* Print a newline character to end the line */
 
-    return (0);
+return (0);
 }

@@ -1,21 +1,27 @@
 #include <stdio.h>
 
-/*no story*/
-
+/**
+ * main - Entry point of the program
+ *
+ * Description: This program prints all possible combinations of single-digit
+ * numbers separated by ", " in ascending order, followed by a new line.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    char letter = 'a';
+char letter = 'a';
 
-    while (letter <= 'z')
-    {
-        if (letter != 'q' && letter != 'e')
-        {
-            putchar(letter);
-        }
-        letter++;
-    }
+while (letter <= 'z')
+{
+if (letter != 'q' && letter != 'e')
+{
+putchar(letter);
+}
+letter++;
+}
 
-    putchar('\n');
+putchar('\n');
 
-    return (0);
+return (0);
 }
