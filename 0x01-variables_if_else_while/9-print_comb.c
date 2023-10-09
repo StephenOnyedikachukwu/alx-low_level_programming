@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/*this is a main function*/
+
 int main(void)
 {
     int digit;
